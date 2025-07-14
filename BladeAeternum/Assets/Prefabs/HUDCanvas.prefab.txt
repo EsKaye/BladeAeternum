@@ -1,0 +1,25 @@
+HUDCanvas Prefab Setup Instructions
+==================================
+
+Purpose:
+- Provides the in-game UI for player stats (health, stamina, blade energy).
+
+Setup Steps:
+1. In Unity, right-click in the Hierarchy and select UI > Canvas. Rename to 'HUDCanvas'.
+2. Set Canvas Render Mode to 'Screen Space - Overlay'.
+3. Add a UI > Slider for HealthBar. Rename to 'HealthBar'.
+   - Set Min Value: 0, Max Value: 1, Default Value: 1.
+   - Customize fill color (e.g., red).
+4. Add a UI > Slider for StaminaBar. Rename to 'StaminaBar'.
+   - Set Min Value: 0, Max Value: 1, Default Value: 1.
+   - Customize fill color (e.g., yellow).
+5. Add a UI > Slider for BladeEnergyBar. Rename to 'BladeEnergyBar'.
+   - Set Min Value: 0, Max Value: 1, Default Value: 1.
+   - Customize fill color (e.g., blue).
+6. Arrange sliders vertically or as desired for your HUD layout.
+7. Add the HUDController.cs script to the HUDCanvas GameObject.
+8. In the Inspector, assign the HealthBar, StaminaBar, and BladeEnergyBar sliders to the corresponding fields in HUDController.
+9. Save HUDCanvas as a prefab in Assets/Prefabs/.
+
+Result:
+- A modular, script-driven HUD ready for runtime stat updates. 

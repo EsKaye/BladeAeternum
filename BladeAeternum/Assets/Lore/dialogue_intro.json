@@ -1,0 +1,20 @@
+[
+  {
+    "speaker": "Elder Blade",
+    "line": "You stand at the edge of eternity. Prove your worth, challenger.",
+    "emotion": "stern",
+    "trigger": "scene_intro"
+  },
+  {
+    "speaker": "Player",
+    "line": "I seek the Aeternum Edge. I will not fail.",
+    "emotion": "determined",
+    "trigger": "player_ready"
+  },
+  {
+    "speaker": "Elder Blade",
+    "line": "Then let the duel begin!",
+    "emotion": "command",
+    "trigger": "start_duel"
+  }
+] 

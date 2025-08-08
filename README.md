@@ -73,6 +73,15 @@ We’re building this with **passion** and **precision.** If you’re a dev, des
 
 ---
 
+## 🤖 Serafina & Guardians
+
+- Added Discord slash command `/council report now` for manual nightly reports.
+- Unity guardians respond to Discord messages routed via the `!guardian` syntax.
+- Serafina announces itself to sibling bots via an HTTP handshake mesh.
+- Owner-only guard and nightly scheduler leverage `OWNER_ID`, `NAV_REPOS`, and optional `WH_LILYBEAR` webhook variables.
+
+---
+
 ## 🕊 License
 
 © 2025 M K World Wide Corporation  

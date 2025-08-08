@@ -1,0 +1,19 @@
+{
+  "name": "serafina-bot",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/router.ts",
+    "test": "echo 'no tests'"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
